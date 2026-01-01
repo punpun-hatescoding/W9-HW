@@ -52,11 +52,11 @@ function draw() {
   textSize(60);           
   textFont('Candal');
   noFill();
-  // Main Text Color
+  // Main Text 
   fill(255, 255, 200);   
   text("HAPPY NEW YEAR", 0, 0); // Main text at center
   text("2026 ☘️", 0, 80); // Subtext below 80 pixels from main
-  
+  // Instruction Text 
   textSize(20);           
   fill(200, 240, 255); 
   text("Click Anywhere to Launch Fireworks!", 0, 140); // Instruction text at bottom 140 pixels
