@@ -59,7 +59,8 @@ function draw() {
   // Instruction Text 
   textSize(20);           
   fill(200, 240, 255); 
-  text("Click Anywhere to Launch Fireworks!", 0, 140); // Instruction text at bottom 140 pixels
+  text("Click Anywhere to Launch Fireworks!", 0, 140);
+  text("Warning: Volume down!", 0, 180); // Instruction text at bottom 140 pixels
   pop(); // End styling state
 
 }
